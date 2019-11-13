@@ -21,6 +21,7 @@ background: rgba(0, 0, 0, 0.6);
   margin-right: auto;
 }
 .d-flex{
+  margin: 0;
   padding-bottom: 1%;
   padding-top:2%;
   text-align: center;
@@ -45,23 +46,22 @@ background: rgba(0, 0, 0, 0.6);
 .result{
   padding-bottom: 10%;
 }
-h1{
-  font-size: 30px;
-}
-.left {
+.score1{
   font-size: 20px;
   float: left;
 }
-
-.right {
+.score2{
   font-size: 20px;
   float: right;
 }
-.purcent-human{
+.purcent1{
   font-size: 20px;
   float: left;
 }
-.purcent-robot{
+.purcent2{
   font-size: 20px;
   float: right;
+}
+select{
+  margin-bottom: 3%;
 }
